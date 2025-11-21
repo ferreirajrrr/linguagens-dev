@@ -1,0 +1,402 @@
+[
+  {
+    "nome": "Objective-C",
+    "descricao": "Extensão da linguagem C que adiciona funcionalidades de orientação a objetos, historicamente usada para desenvolvimento Apple antes do Swift.",
+    "data_criacao": "1984",
+    "link": "https://developer.apple.com/library/archive/documentation/Cocoa/Conceptual/ProgrammingWithObjectiveC/Introduction/Introduction.html",
+    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/objectivec/objectivec-plain.svg",
+    "tags": ["Linguagem de Programação", "Orientada a Objetos", "Legacy", "iOS"]
+  },
+  {
+    "nome": "Erlang",
+    "descricao": "Linguagem de programação usada para construir sistemas distribuídos, tolerantes a falhas e de soft real-time.",
+    "data_criacao": "1986",
+    "link": "https://www.erlang.org/",
+    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/erlang/erlang-original.svg",
+    "tags": ["Linguagem de Programação", "Concorrência", "Distribuído", "Telecomunicações"]
+  },
+  {
+    "nome": "Perl",
+    "descricao": "Família de linguagens de programação dinâmicas, de alto nível, originalmente desenvolvida para manipulação de texto e relatórios.",
+    "data_criacao": "1987",
+    "link": "https://www.perl.org/",
+    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/perl/perl-original.svg",
+    "tags": ["Linguagem de Programação", "Scripting", "Manipulação de Texto", "Legado"]
+  },
+  {
+    "nome": "Haskell",
+    "descricao": "Linguagem de programação puramente funcional, de tipagem forte e avaliação preguiçosa, ideal para pesquisa e sistemas complexos.",
+    "data_criacao": "1990",
+    "link": "https://www.haskell.org/",
+    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/haskell/haskell-original.svg",
+    "tags": ["Linguagem de Programação", "Funcional", "Acadêmica", "Tipagem Forte"]
+  },
+  {
+    "nome": "PHP",
+    "descricao": "Linguagem de script de uso geral, especialmente adequada para desenvolvimento web e incorporada em HTML.",
+    "data_criacao": "1995",
+    "link": "https://www.php.net/",
+    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-plain.svg",
+    "tags": ["Linguagem de Programação", "Backend", "Desenvolvimento Web", "Scripting"]
+  },
+  {
+    "nome": "PostgreSQL",
+    "descricao": "Sistema gerenciador de banco de dados objeto-relacional (SGBDOR) open-source, conhecido por sua robustez e conformidade SQL.",
+    "data_criacao": "1996",
+    "link": "https://www.postgresql.org/",
+    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-plain.svg",
+    "tags": ["Banco de Dados", "SQL", "Open Source", "Relacional"]
+  },
+  {
+    "nome": "C#",
+    "descricao": "Linguagem de programação orientada a objetos desenvolvida pela Microsoft, usada principalmente no ecossistema .NET.",
+    "data_criacao": "2000",
+    "link": "https://docs.microsoft.com/pt-br/dotnet/csharp/",
+    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-plain.svg",
+    "tags": ["Linguagem de Programação", "Backend", ".NET", "POO", "Microsoft"]
+  },
+  {
+    "nome": "SQLite",
+    "descricao": "Sistema de gerenciamento de banco de dados relacional que não requer um processo de servidor separado, armazenando dados em um único arquivo.",
+    "data_criacao": "2000",
+    "link": "https://www.sqlite.org/",
+    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sqlite/sqlite-original.svg",
+    "tags": ["Banco de Dados", "Embarcado", "Relacional", "Mobile"]
+  },
+  {
+    "nome": "Scala",
+    "descricao": "Linguagem que combina recursos de linguagens orientadas a objetos e funcionais, rodando na Java Virtual Machine (JVM).",
+    "data_criacao": "2003",
+    "link": "https://www.scala-lang.org/",
+    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/scala/scala-original.svg",
+    "tags": ["Linguagem de Programação", "JVM", "Orientada a Objetos", "Funcional"]
+  },
+  {
+    "nome": "Git",
+    "descricao": "Sistema de controle de versão distribuído, amplamente utilizado para rastrear mudanças no código-fonte durante o desenvolvimento.",
+    "data_criacao": "2005",
+    "link": "https://git-scm.com/",
+    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-plain.svg",
+    "tags": ["Controle de Versão", "Ferramenta", "Desenvolvimento", "Colaboração"]
+  },
+  {
+    "nome": "Puppet",
+    "descricao": "Plataforma de automação de código aberto para gerenciamento de configuração de infraestrutura de TI.",
+    "data_criacao": "2005",
+    "link": "https://puppet.com/",
+    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/puppet/puppet-original.svg",
+    "tags": ["DevOps", "Gerenciamento de Configuração", "Automação", "Infraestrutura"]
+  },
+  {
+    "nome": "AWS",
+    "descricao": "Plataforma de serviços de computação em nuvem oferecida pela Amazon, abrangendo IaaS, PaaS e SaaS.",
+    "data_criacao": "2006",
+    "link": "https://aws.amazon.com/",
+    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original.svg",
+    "tags": ["Cloud Computing", "Infraestrutura", "Serviços Web", "Plataforma"]
+  },
+  {
+    "nome": "Clojure",
+    "descricao": "Dialeto moderno da linguagem Lisp, que roda na JVM (Java Virtual Machine), focado em programação funcional e concorrência.",
+    "data_criacao": "2007",
+    "link": "https://clojure.org/",
+    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/clojure/clojure-original.svg",
+    "tags": ["Linguagem de Programação", "Funcional", "Lisp", "JVM"]
+  },
+  {
+    "nome": "Neo4j",
+    "descricao": "Banco de dados de grafo (Graph Database) líder de mercado, otimizado para armazenar e consultar relacionamentos complexos.",
+    "data_criacao": "2007",
+    "link": "https://neo4j.com/",
+    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/neo4j/neo4j-original.svg",
+    "tags": ["Banco de Dados", "Grafo", "NoSQL", "Consultas Complexas"]
+  },
+  {
+    "nome": "RabbitMQ",
+    "descricao": "Software de mensageria (message broker) de código aberto que implementa o Advanced Message Queuing Protocol (AMQP).",
+    "data_criacao": "2007",
+    "link": "https://www.rabbitmq.com/",
+    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rabbitmq/rabbitmq-original.svg",
+    "tags": ["Mensageria", "Broker", "Microsserviços", "Assíncrono"]
+  },
+  {
+    "nome": "Cassandra",
+    "descricao": "Banco de dados NoSQL distribuído, altamente escalável e tolerante a falhas, ideal para grandes volumes de dados.",
+    "data_criacao": "2008",
+    "link": "https://cassandra.apache.org/",
+    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cassandra/cassandra-original.svg",
+    "tags": ["Banco de Dados", "NoSQL", "Distribuído", "Column-oriented"]
+  },
+  {
+    "nome": "Chef",
+    "descricao": "Ferramenta de automação e gerenciamento de configuração que transforma infraestrutura em código.",
+    "data_criacao": "2009",
+    "link": "https://www.chef.io/",
+    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/chef/chef-original.svg",
+    "tags": ["DevOps", "Gerenciamento de Configuração", "Automação", "Infraestrutura como Código"]
+  },
+  {
+    "nome": "Go",
+    "descricao": "Linguagem de programação compilada e eficiente, ideal para sistemas de rede, infraestrutura e microsserviços de alta performance.",
+    "data_criacao": "2009",
+    "link": "https://golang.org/",
+    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg",
+    "tags": ["Linguagem de Programação", "Backend", "Concorrência", "Google", "Compilada"]
+  },
+  {
+    "nome": "MariaDB",
+    "descricao": "Banco de dados relacional de código aberto, um fork do MySQL, conhecido por sua alta compatibilidade e desempenho.",
+    "data_criacao": "2009",
+    "link": "https://mariadb.org/",
+    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mariadb/mariadb-original.svg",
+    "tags": ["Banco de Dados", "SQL", "Relacional", "Código Aberto"]
+  },
+  {
+    "nome": "MongoDB",
+    "descricao": "Banco de dados NoSQL orientado a documentos, que oferece alta escalabilidade e flexibilidade de esquema.",
+    "data_criacao": "2009",
+    "link": "https://www.mongodb.com/",
+    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-plain.svg",
+    "tags": ["Banco de Dados", "NoSQL", "Documentos", "Escalabilidade"]
+  },
+  {
+    "nome": "Redis",
+    "descricao": "Armazenamento de estrutura de dados em memória (in-memory data store) usado como cache, message broker e banco de dados primário.",
+    "data_criacao": "2009",
+    "link": "https://redis.io/",
+    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redis/redis-plain.svg",
+    "tags": ["Cache", "Banco de Dados", "Estrutura de Dados", "In-memory"]
+  },
+  {
+    "nome": "Azure",
+    "descricao": "Conjunto de serviços de computação em nuvem da Microsoft, oferecendo soluções de infraestrutura, plataforma e software como serviço.",
+    "data_criacao": "2010",
+    "link": "https://azure.microsoft.com/",
+    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/azure/azure-original.svg",
+    "tags": ["Cloud Computing", "Plataforma", "Infraestrutura", "Microsoft"]
+  },
+  {
+    "nome": "Backbone.js",
+    "descricao": "Framework JavaScript leve que estrutura aplicações web com modelos (models) ligados a coleções (collections) e visões (views).",
+    "data_criacao": "2010",
+    "link": "https://backbonejs.org/",
+    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/backbonejs/backbonejs-original.svg",
+    "tags": ["Framework", "Frontend", "JavaScript", "Minimalista"]
+  },
+  {
+    "nome": "Rust",
+    "descricao": "Linguagem focada em segurança de memória e performance, adequada para desenvolvimento de sistemas operacionais e embarcados.",
+    "data_criacao": "2010",
+    "link": "https://www.rust-lang.org/",
+    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg",
+    "tags": ["Linguagem de Programação", "Sistemas", "Segurança", "Performance", "Compilada"]
+  },
+  {
+    "nome": "Dart",
+    "descricao": "Linguagem de programação otimizada para o cliente, desenvolvida pelo Google, usada para construir apps móveis, desktop, backend e web.",
+    "data_criacao": "2011",
+    "link": "https://dart.dev/",
+    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dart/dart-plain.svg",
+    "tags": ["Linguagem de Programação", "Multiplataforma", "Cliente", "Google"]
+  },
+  {
+    "nome": "Elixir",
+    "descricao": "Linguagem de programação funcional e dinâmica projetada para construir aplicações escaláveis e de fácil manutenção, rodando na VM Erlang.",
+    "data_criacao": "2011",
+    "link": "https://elixir-lang.org/",
+    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/elixir/elixir-original.svg",
+    "tags": ["Linguagem de Programação", "Funcional", "Concorrência", "Backend"]
+  },
+  {
+    "nome": "Ember.js",
+    "descricao": "Framework JavaScript produtivo para criar aplicações web de página única (SPA) de grande escala, com forte ênfase em convenção sobre configuração.",
+    "data_criacao": "2011",
+    "link": "https://emberjs.com/",
+    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ember/ember-original-wordmark.svg",
+    "tags": ["Framework", "Frontend", "SPA", "JavaScript"]
+  },
+  {
+    "nome": "Jenkins",
+    "descricao": "Servidor de automação open-source para CI/CD (Integração Contínua e Entrega Contínua).",
+    "data_criacao": "2011",
+    "link": "https://www.jenkins.io/",
+    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jenkins/jenkins-original.svg",
+    "tags": ["DevOps", "CI/CD", "Automação", "Ferramenta", "Open Source"]
+  },
+  {
+    "nome": "Kafka",
+    "descricao": "Plataforma de streaming de eventos distribuída que permite publicar, assinar, armazenar e processar fluxos de registros em tempo real.",
+    "data_criacao": "2011",
+    "link": "https://kafka.apache.org/",
+    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apachekafka/apachekafka-original.svg",
+    "tags": ["Streaming", "Mensageria", "Big Data", "Eventos", "Apache"]
+  },
+  {
+    "nome": "Kotlin",
+    "descricao": "Linguagem moderna e pragmática que roda na JVM, totalmente interoperável com Java, amplamente usada em desenvolvimento Android.",
+    "data_criacao": "2011",
+    "link": "https://kotlinlang.org/",
+    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kotlin/kotlin-plain.svg",
+    "tags": ["Linguagem de Programação", "Backend", "Mobile", "JVM"]
+  },
+  {
+    "nome": "Laravel",
+    "descricao": "Framework web PHP com sintaxe expressiva e elegante, focado em simplicidade e produtividade para desenvolvimento backend.",
+    "data_criacao": "2011",
+    "link": "https://laravel.com/",
+    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/laravel/laravel-plain.svg",
+    "tags": ["Framework", "Backend", "PHP", "ORM"]
+  },
+  {
+    "nome": "TypeScript",
+    "descricao": "Superset de JavaScript que adiciona tipagem estática opcional, melhorando a escalabilidade do código.",
+    "data_criacao": "2012",
+    "link": "https://www.typescriptlang.org/",
+    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-plain.svg",
+    "tags": ["Linguagem de Programação", "Frontend", "Backend", "Tipagem Estática", "Compilador"]
+  },
+  {
+    "nome": "Docker",
+    "descricao": "Plataforma para desenvolver, enviar e executar aplicações dentro de contêineres leves e portáteis.",
+    "data_criacao": "2013",
+    "link": "https://www.docker.com/",
+    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-plain.svg",
+    "tags": ["Contêinerização", "DevOps", "Virtualização", "Ferramenta"]
+  },
+  {
+    "nome": "Consul",
+    "descricao": "Ferramenta de descoberta de serviços (service discovery), checagem de saúde e armazenamento de pares chave-valor para sistemas distribuídos.",
+    "data_criacao": "2014",
+    "link": "https://www.consul.io/",
+    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/consul/consul-original.svg",
+    "tags": ["Networking", "Microsserviços", "Service Discovery", "DevOps"]
+  },
+  {
+    "nome": "Kubernetes",
+    "descricao": "Sistema open-source para automação de implantação, escalonamento e gerenciamento de aplicações em contêineres.",
+    "data_criacao": "2014",
+    "link": "https://kubernetes.io/",
+    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kubernetes/kubernetes-plain.svg",
+    "tags": ["Orquestração", "DevOps", "Cloud Computing", "Infraestrutura"]
+  },
+  {
+    "nome": "Spring Boot",
+    "descricao": "Framework para facilitar a criação de aplicações stand-alone e baseadas em microserviços com o ecossistema Spring.",
+    "data_criacao": "2014",
+    "link": "https://spring.io/projects/spring-boot",
+    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg",
+    "tags": ["Framework", "Backend", "Microsserviços", "JVM", "Enterprise"]
+  },
+  {
+    "nome": "Swift",
+    "descricao": "Linguagem de programação poderosa e intuitiva criada pela Apple para desenvolver apps para iOS, macOS, watchOS e tvOS.",
+    "data_criacao": "2014",
+    "link": "https://www.swift.org/",
+    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/swift/swift-original.svg",
+    "tags": ["Linguagem de Programação", "Mobile", "iOS", "Apple"]
+  },
+  {
+    "nome": "Terraform",
+    "descricao": "Ferramenta de Infraestrutura como Código (IaC) que permite provisionar e gerenciar recursos de infraestrutura de forma declarativa.",
+    "data_criacao": "2014",
+    "link": "https://www.terraform.io/",
+    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/terraform/terraform-original.svg",
+    "tags": ["DevOps", "Infraestrutura como Código", "IaC", "Provisionamento", "HashiCorp"]
+  },
+  {
+    "nome": "Vue.js",
+    "descricao": "Framework progressivo para construção de interfaces de usuário e Single Page Applications (SPAs).",
+    "data_criacao": "2014",
+    "link": "https://vuejs.org/",
+    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-plain.svg",
+    "tags": ["Framework", "Frontend", "UI/UX", "SPA"]
+  },
+  {
+    "nome": "CockroachDB",
+    "descricao": "Banco de dados SQL distribuído, nativo da nuvem e altamente resiliente, projetado para sobreviver a falhas de máquina ou datacenter.",
+    "data_criacao": "2015",
+    "link": "https://www.cockroachlabs.com/",
+    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cockroachdb/cockroachdb-original.svg",
+    "tags": ["Banco de Dados", "SQL", "Cloud Native", "Distribuído"]
+  },
+  {
+    "nome": "GraphQL",
+    "descricao": "Linguagem de consulta para APIs desenvolvida pelo Facebook, permitindo que o cliente solicite apenas os dados necessários.",
+    "data_criacao": "2015",
+    "link": "https://graphql.org/",
+    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/graphql/graphql-plain.svg",
+    "tags": ["API", "Backend", "Linguagem de Consulta", "Ferramenta"]
+  },
+  {
+    "nome": "React Native",
+    "descricao": "Framework que permite desenvolver aplicações mobile nativas usando JavaScript e a biblioteca React, focando em reusabilidade de código.",
+    "data_criacao": "2015",
+    "link": "https://reactnative.dev/",
+    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
+    "tags": ["Framework", "Mobile", "JavaScript", "Multiplataforma"]
+  },
+  {
+    "nome": "Serverless Framework",
+    "descricao": "Framework CLI que facilita a implantação e o gerenciamento de aplicações serverless em provedores de cloud.",
+    "data_criacao": "2015",
+    "link": "https://www.serverless.com/",
+    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/serverless/serverless-original.svg",
+    "tags": ["Cloud Computing", "Serverless", "Ferramenta", "Implantação"]
+  },
+  {
+    "nome": "Angular",
+    "descricao": "Framework completo e robusto, mantido pelo Google, para desenvolvimento de aplicações web complexas.",
+    "data_criacao": "2016",
+    "link": "https://angular.io/",
+    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-plain.svg",
+    "tags": ["Framework", "Frontend", "TypeScript", "Google", "SPA"]
+  },
+  {
+    "nome": "Next.js",
+    "descricao": "Framework de React para produção que facilita a renderização no lado do servidor (SSR) e a geração de sites estáticos (SSG).",
+    "data_criacao": "2016",
+    "link": "https://nextjs.org/",
+    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg",
+    "tags": ["Framework", "Frontend", "Fullstack", "SSR", "Vercel"]
+  },
+  {
+    "nome": "Svelte",
+    "descricao": "Framework de frontend que move a maior parte do trabalho para a etapa de compilação, gerando código Vanilla JS otimizado.",
+    "data_criacao": "2016",
+    "link": "https://svelte.dev/",
+    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/svelte/svelte-original.svg",
+    "tags": ["Framework", "Frontend", "Compilador", "UI", "Performance"]
+  },
+  {
+    "nome": "Flutter",
+    "descricao": "Toolkit de UI do Google para construir aplicações nativas, compiladas e visualmente atraentes para mobile, web e desktop a partir de uma única base de código.",
+    "data_criacao": "2017",
+    "link": "https://flutter.dev/",
+    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-plain.svg",
+    "tags": ["Framework", "Mobile", "Multiplataforma", "UI/UX"]
+  },
+  {
+    "nome": "Istio",
+    "descricao": "Malha de serviço (Service Mesh) de código aberto que ajuda a conectar, gerenciar e proteger microsserviços.",
+    "data_criacao": "2017",
+    "link": "https://istio.io/",
+    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/istio/istio-original.svg",
+    "tags": ["Service Mesh", "Microsserviços", "DevOps", "Rede"]
+  },
+  {
+    "nome": "WebAssembly",
+    "descricao": "Formato de instrução binário de baixo nível projetado para execução de alta performance em navegadores e fora deles.",
+    "data_criacao": "2017",
+    "link": "https://webassembly.org/",
+    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/webassembly/webassembly-original.svg",
+    "tags": ["Compilação", "Frontend", "Performance", "Binário"]
+  },
+  {
+    "nome": "FastAPI",
+    "descricao": "Framework web moderno, rápido (high-performance) e assíncrono para construir APIs baseado em padrões de tipagem.",
+    "data_criacao": "2018",
+    "link": "https://fastapi.tiangolo.com/",
+    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/fastapi/fastapi-plain.svg",
+    "tags": ["Framework", "Backend", "API", "Assíncrono", "High Performance"]
+  }
+]

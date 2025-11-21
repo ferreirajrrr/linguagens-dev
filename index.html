@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explore uma constelação interativa de tecnologias, linguagens de programação e frameworks. Uma base de conhecimento visual e criativa.">
+    <meta name="keywords" content="Programação, Tecnologia, JavaScript, Python, React, Glassmorphism, Interativo, Base de Conhecimento">
+    <title>Base de Conhecimento Tech</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="aurora-background">
+        <div class="aurora-shape shape1"></div>
+        <div class="aurora-shape shape2"></div>
+        <div class="aurora-shape shape3"></div>
+    </div>
+
+    <main id="landing-page" class="page">
+        <div class="landing-content">
+            <h1>Base de Conhecimento</h1>
+            <p>Explore as principais linguagens de programação.</p>
+            <button id="enter-button" class="cta-button">Explorar</button>
+        </div>
+    </main>
+
+    <main id="main-content" class="page hidden">
+        <header class="main-header">
+            <div id="constellation-view-toggle" class="view-toggle-button active">Constelação</div>
+            <input type="search" id="search-input" placeholder="Buscar por nome ou descrição...">
+            <div id="grid-view-toggle" class="view-toggle-button">Grade</div>
+        </header>
+        <div id="constellation-container"></div>
+        <section class="card-container"></section>
+        <footer class="site-footer">
+            <p>&copy; 2025 Ferreira Junior. Todos os direitos reservados.</p>
+            <div class="footer-links">
+                <a href="https://github.com/ferreirajrrr" target="_blank" rel="noopener noreferrer">GitHub</a>
+                <span>&bull;</span>
+                <a href="https://instagram.com/hojetoindeciso" target="_blank" rel="noopener noreferrer">Instagram</a>
+            </div>
+        </footer>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/p5@1.4.1/lib/p5.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
