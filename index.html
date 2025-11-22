@@ -29,12 +29,14 @@
 
     <main id="main-content" class="page hidden">
         <header class="main-header">
-            <div id="constellation-view-toggle" class="view-toggle-button active">Constelação</div>
             <input type="search" id="search-input" placeholder="Buscar por nome ou descrição...">
-            <div id="grid-view-toggle" class="view-toggle-button">Grade</div>
+            <div class="view-toggle-container">
+                <button id="grid-view-toggle" class="view-toggle-button">Grade</button>
+                <button id="constellation-view-toggle" class="view-toggle-button active">Constelação</button>
+            </div>
         </header>
+        <section class="card-container hidden"></section>
         <div id="constellation-container"></div>
-        <section class="card-container"></section>
         <footer class="site-footer">
             <p>&copy; 2025 Ferreira Junior. Todos os direitos reservados.</p>
             <div class="footer-links">
