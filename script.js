@@ -11,9 +11,6 @@ const gridViewToggle = document.getElementById("grid-view-toggle");
 let dados = [];
 let sketch; // Variável para guardar a instância do p5.js
 
-// Esconde a grade de cards por padrão ao iniciar
-cardContainer.style.display = 'none';
-
 /**
  * Carrega os dados do data.json e renderiza os cards iniciais.
  */
@@ -22,8 +19,9 @@ async function inicializarPagina() {
         const resposta = await fetch("data.json");
         dados = await resposta.json();
         renderizarTodosOsCards(dados);
-        // Inicializa a constelação
+        // Inicializa a constelação e pausa a animação da grade (que não está visível)
         sketch = new p5(constellationSketch, constellationContainer);
+        alternarVisao('constellation'); // Garante que a constelação é a visão inicial
     } catch (error) {
         console.error("Falha ao carregar os dados:", error);
         cardContainer.innerHTML = `<p class="no-results">Erro ao carregar informações. Tente novamente mais tarde.</p>`;
@@ -213,13 +211,13 @@ const constellationSketch = (p) => {
 
 function alternarVisao(view) {
     if (view === 'constellation') {
-        cardContainer.style.display = 'none';
+        cardContainer.classList.add('hidden');
         constellationContainer.classList.remove('hidden');
         constellationViewToggle.classList.add('active');
         gridViewToggle.classList.remove('active');
         if (sketch) sketch.loop(); // Reinicia a animação
     } else { // 'grid'
-        cardContainer.style.display = 'grid';
+        cardContainer.classList.remove('hidden');
         constellationContainer.classList.add('hidden');
         constellationViewToggle.classList.remove('active');
         gridViewToggle.classList.add('active');
@@ -253,5 +251,5 @@ enterButton.addEventListener("click", () => {
         landingPage.remove();
     }, 600);
 
-    searchInput.focus(); // Melhora a UX focando no campo de busca
+    // Não foca mais no input, pois a primeira interação é com a constelação
 });
