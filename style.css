@@ -125,7 +125,7 @@ body {
     font-size: 1.1rem;
     font-weight: 700;
     border-radius: 50px;
-    cursor: pointer;
+    cursor: pointer; 
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
@@ -155,6 +155,12 @@ body {
     flex-wrap: wrap;
 }
 
+.view-toggle-container {
+    display: flex;
+    gap: 0.5rem; /* Espaçamento entre os botões */
+    flex-shrink: 0; /* Impede que os botões encolham */
+}
+
 .view-toggle-button {
     padding: 0.5rem 1rem;
     border: 1px solid var(--border-color);
@@ -182,7 +188,7 @@ body {
 }
 
 #search-input {
-    width: 100%;
+    flex-grow: 1; /* Faz o input ocupar o espaço disponível */
     padding: 1rem;
     border-radius: 10px;
     border: 1px solid var(--border-color);
@@ -214,6 +220,10 @@ body {
     padding-bottom: 2rem;
 }
 
+.card-container.hidden {
+    display: none;
+}
+
 /* --- Visão Constelação --- */
 #constellation-container {
     width: 100%;
@@ -234,7 +244,7 @@ body {
     display: flex;
     flex-direction: column;
     gap: 0.75rem;
-    transition: transform 0.1s ease-out, box-shadow 0.3s ease;
+    transition: transform 0.3s ease-out, box-shadow 0.3s ease;
     transform-style: preserve-3d; /* Habilita o 3D para o efeito de hover */
     cursor: pointer;
 }
@@ -327,4 +337,35 @@ body {
     align-items: center;
     gap: 0.75rem;
     margin-top: 0.5rem;
+}
+
+/* --- Media Queries para Responsividade --- */
+@media (max-width: 768px) {
+    .page {
+        padding: 1.5rem;
+    }
+
+    .landing-content h1 {
+        font-size: 2.8rem;
+    }
+
+    .landing-content p {
+        font-size: 1.1rem;
+    }
+
+    .main-header {
+        /* Mantém a direção horizontal e permite quebra de linha se necessário */
+        flex-wrap: wrap;
+    }
+
+    #search-input {
+        min-width: 200px; /* Garante uma largura mínima para a busca */
+    }
+
+    .card-container {
+        /* Reduz o gap em telas menores */
+        gap: 1rem;
+        /* Garante que o minmax não seja maior que a tela */
+        grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    }
 }
